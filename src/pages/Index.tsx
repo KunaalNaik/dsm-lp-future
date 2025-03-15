@@ -31,7 +31,7 @@ const Index = () => {
   return (
     <div className="bg-cyber-black text-white overflow-x-hidden">
       <Header />
-      <main className="max-w-screen-2xl mx-auto">
+      <main>
         <VisionSection />
         <ProgramsSection />
         <TestimonialsSection />

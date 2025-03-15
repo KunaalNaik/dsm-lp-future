@@ -17,12 +17,12 @@ const PolicySection: React.FC = () => {
             </span>
           </Link>
           
-          <a href="#" className="cyber-card p-4 flex items-center gap-3 group hover:translate-y-[-5px] transition-transform duration-300">
+          <Link to="#" className="cyber-card p-4 flex items-center gap-3 group hover:translate-y-[-5px] transition-transform duration-300">
             <Scroll className="w-5 h-5 text-cyber-blue group-hover:animate-pulse" />
             <span className="text-white/90 group-hover:text-cyber-blue transition-colors duration-300">
               Return & Refund Policy
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

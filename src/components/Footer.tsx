@@ -14,6 +14,7 @@ import {
   Youtube, 
   Instagram
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const links = [
@@ -45,10 +46,10 @@ const Footer: React.FC = () => {
               {links
                 .slice(columnIndex * 3, columnIndex * 3 + 3)
                 .map((link, index) => (
-                  <a 
+                  <Link
                     key={index} 
-                    href={link.url}
-                    className="cyber-card p-4 flex items-center gap-3 group hover:translate-y-[-5px] transition-all duration-300"
+                    to={link.url}
+                    className="cyber-card p-4 flex items-center gap-3 group hover:translate-y-[-5px] transition-all duration-300 block"
                   >
                     <span className="text-cyber-blue group-hover:animate-pulse">
                       {link.icon}
@@ -56,7 +57,7 @@ const Footer: React.FC = () => {
                     <span className="text-white/90 group-hover:text-cyber-blue transition-colors duration-300">
                       {link.text}
                     </span>
-                  </a>
+                  </Link>
                 ))}
             </div>
           ))}
