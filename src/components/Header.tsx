@@ -36,7 +36,7 @@ const Header: React.FC = () => {
           </h1>
           <h2 className="text-xl md:text-2xl mb-2 text-cyber-blue/90">by Coach Kunaal</h2>
           <p className="text-lg md:text-xl mb-8 text-white/80">The Future of Careers: Adapt, Execute, Lead</p>
-          <p className="text-sm text-white/60">Owned by nliveyourself</p>
+          <p className="text-sm text-white/60">Owned by Enlive Yourself</p>
         </div>
         
         <Button 

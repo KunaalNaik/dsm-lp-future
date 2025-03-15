@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
               <div>
                 <h2 className="text-2xl font-orbitron mb-3">Introduction</h2>
                 <p className="text-white/80 mb-4">
-                  At nliveyourself, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+                  At Enlive Yourself, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
                 </p>
                 <p className="text-white/80">
                   We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the "Last Updated" date of this Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates.
@@ -105,7 +105,7 @@ const PrivacyPolicy = () => {
               <div>
                 <h2 className="text-2xl font-orbitron mb-3">Contact Us</h2>
                 <p className="text-white/80">
-                  If you have questions or comments about this Privacy Policy, please contact us at: privacy@nliveyourself.com
+                  If you have questions or comments about this Privacy Policy, please contact us at: privacy@enliveyourself.com
                 </p>
               </div>
             </div>
