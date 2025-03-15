@@ -23,10 +23,10 @@ const WhyChooseUs: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 px-4 relative">
+    <section className="py-20 px-4 md:px-8 relative">
       <div className="absolute inset-0 cyber-grid opacity-30 z-0"></div>
       
-      <div className="container relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 neon-text">Why Choose Us?</h2>
         </div>

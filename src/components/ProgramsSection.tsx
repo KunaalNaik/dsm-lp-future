@@ -29,10 +29,10 @@ const ProgramsSection: React.FC = () => {
   ];
 
   return (
-    <section id="programs" className="py-20 px-4 relative">
+    <section id="programs" className="py-20 px-4 md:px-8 relative">
       <div className="absolute inset-0 cyber-grid opacity-30 z-0"></div>
       
-      <div className="container relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 neon-text">Programs</h2>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-white/80">

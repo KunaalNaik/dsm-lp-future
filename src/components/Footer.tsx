@@ -35,10 +35,10 @@ const Footer: React.FC = () => {
   ];
 
   return (
-    <footer className="py-16 px-4 border-t border-cyber-blue/30 relative">
+    <footer className="py-16 px-4 md:px-8 border-t border-cyber-blue/30 relative">
       <div className="absolute inset-0 cyber-grid opacity-30 z-0"></div>
       
-      <div className="container relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {[0, 1, 2].map((columnIndex) => (
             <div key={columnIndex} className="space-y-4">

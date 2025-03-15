@@ -29,14 +29,16 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-cyber-black text-white overflow-x-hidden">
+    <div className="bg-cyber-black text-white overflow-x-hidden">
       <Header />
-      <VisionSection />
-      <ProgramsSection />
-      <TestimonialsSection />
-      <WhyChooseUs />
-      <CtaSection />
-      <PolicySection />
+      <main className="max-w-screen-2xl mx-auto">
+        <VisionSection />
+        <ProgramsSection />
+        <TestimonialsSection />
+        <WhyChooseUs />
+        <CtaSection />
+        <PolicySection />
+      </main>
       <Footer />
     </div>
   );

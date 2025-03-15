@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const CtaSection: React.FC = () => {
   return (
-    <section className="py-16 px-4 relative">
+    <section className="py-16 px-4 md:px-8 relative">
       <div className="absolute inset-0 bg-cyber-dark-blue/80 z-0"></div>
       <div className="absolute inset-0 cyber-grid opacity-50 z-0"></div>
       
@@ -25,7 +25,7 @@ const CtaSection: React.FC = () => {
         ))}
       </div>
       
-      <div className="container relative z-10">
+      <div className="max-w-7xl mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center cyber-card p-8 md:p-12 overflow-hidden">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-glow-radial animate-pulse opacity-20"></div>
           
