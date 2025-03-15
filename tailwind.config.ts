@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Cyberpunk theme colors
+				cyber: {
+					'blue': '#00f3ff',
+					'blue-glow': '#00f3ff80',
+					'dark-blue': '#001a3a',
+					'darker-blue': '#00081a',
+					'black': '#000814',
 				}
 			},
 			borderRadius: {
@@ -69,26 +78,48 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			keyframes: {
-				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
+				"accordion-down": {
+					from: { height: '0' },
+					to: { height: 'var(--radix-accordion-content-height)' },
 				},
-				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
+				"accordion-up": {
+					from: { height: 'var(--radix-accordion-content-height)' },
+					to: { height: '0' },
+				},
+				"pulse-glow": {
+					"0%, 100%": { boxShadow: "0 0 12px 2px rgba(0, 243, 255, 0.3)" },
+					"50%": { boxShadow: "0 0 20px 6px rgba(0, 243, 255, 0.6)" }
+				},
+				"float": {
+					"0%, 100%": { transform: "translateY(0)" },
+					"50%": { transform: "translateY(-10px)" }
+				},
+				"wave": {
+					"0%": { backgroundPosition: "0% 50%" },
+					"50%": { backgroundPosition: "100% 50%" },
+					"100%": { backgroundPosition: "0% 50%" }
+				},
+				"digital-wave": {
+					"0%, 100%": { transform: "translateY(0) scaleY(1)" },
+					"50%": { transform: "translateY(-5px) scaleY(1.03)" }
 				}
 			},
 			animation: {
-				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				"accordion-down": "accordion-down 0.2s ease-out",
+				"accordion-up": "accordion-up 0.2s ease-out",
+				"pulse-glow": "pulse-glow 2s infinite",
+				"float": "float 6s ease-in-out infinite",
+				"wave": "wave 15s ease infinite",
+				"digital-wave": "digital-wave 8s ease-in-out infinite"
+			},
+			backgroundImage: {
+				'cyber-grid': "linear-gradient(rgba(0, 243, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 243, 255, 0.1) 1px, transparent 1px)",
+				'cyber-gradient': "linear-gradient(180deg, #000814 0%, #001a3a 100%)",
+				'glow-radial': "radial-gradient(circle, rgba(0, 243, 255, 0.2) 0%, rgba(0, 8, 26, 0) 70%)"
+			},
+			fontFamily: {
+				'orbitron': ['Orbitron', 'sans-serif'],
+				'exo': ['"Exo 2"', 'sans-serif']
 			}
 		}
 	},
